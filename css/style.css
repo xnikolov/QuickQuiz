@@ -26,6 +26,11 @@ nav a {
           animation: toggleOnLaunch .8s;
 }
 
+.container .quiz-info button {
+  background: #4CAF50;
+  border: none;
+}
+
 .container .questions-box, .container .result-box {
   -webkit-animation: toggleOnLaunch .8s;
           animation: toggleOnLaunch .8s;
@@ -62,7 +67,7 @@ footer {
     opacity: 0;
   }
   50% {
-    opacity: 0.2;
+    opacity: 0.0;
   }
   75% {
     opacity: 0.5;
@@ -82,7 +87,7 @@ footer {
     opacity: 0;
   }
   50% {
-    opacity: 0.2;
+    opacity: 0.0;
   }
   75% {
     opacity: 0.5;

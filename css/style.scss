@@ -26,6 +26,11 @@ nav{
         .quiz-info{
             background: #fff;
             animation: toggleOnLaunch .8s;
+
+            button{
+                background: $button;
+                border: none;
+            }
         }
 
         .questions-box, .result-box{    
@@ -69,7 +74,7 @@ nav{
         }
 
         50%{
-            opacity: 0.2;
+            opacity: 0.0;
         }
 
         75%{
