@@ -1,0 +1,83 @@
+@import 'vars/vars.scss';
+
+nav{
+    a{
+        color: #fff !important;
+    }
+}
+
+.navbar-dark{
+    background: $header !important;
+
+    .navbar-brand{
+        color: #fff;
+        font-size: 1.6rem;
+
+        span{
+            color: $logoSpan;
+            font-size: 2rem;
+        }
+    }
+}
+
+    .container{
+        background: $container;
+
+        .quiz-info{
+            background: #fff;
+            animation: toggleOnLaunch .8s;
+        }
+
+        .questions-box, .result-box{    
+            animation: toggleOnLaunch .8s;
+            display: none;
+        }
+
+       
+        .questions-box {
+            form{
+                .form-group{
+                    display: none;
+                    animation: toggleOnLaunch .8s; 
+                    p{
+                        padding: 10px 0;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+
+                    input{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        color: #fff;   
+        text-decoration: none !important; 
+    }
+
+    @keyframes toggleOnLaunch {
+        0%{
+            margin-top: -50%;
+            opacity: 0;
+        }
+
+        25%{
+            opacity: 0;
+        }
+
+        50%{
+            opacity: 0.2;
+        }
+
+        75%{
+            opacity: 0.5;
+        }
+
+        100%{
+            opacity: 1;
+            margin-top: 0;
+        }
+    }

@@ -1,0 +1,95 @@
+nav a {
+  color: #fff !important;
+}
+
+.navbar-dark {
+  background: #101010 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.navbar-dark .navbar-brand span {
+  color: #93ac9d;
+  font-size: 2rem;
+}
+
+.container {
+  background: #93ac9d;
+}
+
+.container .quiz-info {
+  background: #fff;
+  -webkit-animation: toggleOnLaunch .8s;
+          animation: toggleOnLaunch .8s;
+}
+
+.container .questions-box, .container .result-box {
+  -webkit-animation: toggleOnLaunch .8s;
+          animation: toggleOnLaunch .8s;
+  display: none;
+}
+
+.container .questions-box form .form-group {
+  display: none;
+  -webkit-animation: toggleOnLaunch .8s;
+          animation: toggleOnLaunch .8s;
+}
+
+.container .questions-box form .form-group p {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container .questions-box form .form-group input {
+  margin-bottom: 20px;
+}
+
+footer {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+@-webkit-keyframes toggleOnLaunch {
+  0% {
+    margin-top: -50%;
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes toggleOnLaunch {
+  0% {
+    margin-top: -50%;
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
